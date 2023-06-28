@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sequtils_test"
-version = "0.0.7"
+version = "0.1.0"
 authors = [
   { name="nbrg-ppcu", email="nbrg@itk.ppke.hu" },
 ]
