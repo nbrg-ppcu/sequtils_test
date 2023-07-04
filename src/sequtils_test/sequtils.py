@@ -16,13 +16,13 @@ def load_contigs(fasta_files_list, adding_reverse_complement=True, IsAddHeader=F
     """ 
     Load contigs from a list of fasta files.
 
-    Parameters:
+    :param:
     fasta_files_list (list): List of paths to fasta files.
     adding_reverse_complement (bool, optional): If True, add the reverse complement of each sequence. Defaults to True.
     IsAddHeader (bool, optional): If True, include the fasta ID and description in the output. Defaults to False.
     AsDataFrame (bool, optional): If True, return the sequences as a pandas DataFrame. Defaults to False.
 
-    Returns:
+    :return:
     list or DataFrame: The loaded sequences. Each sequence is represented as a string if IsAddHeader is False, 
     or as a list [fasta_id, description, source_file, sequence, orientation] if IsAddHeader is True. 
     If AsDataFrame is True, the sequences are returned as a DataFrame.
